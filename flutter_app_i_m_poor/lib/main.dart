@@ -18,6 +18,11 @@ class MyApp extends StatelessWidget {
         body: Image(
           image: AssetImage('images/diamond.png'),
         ),
+        floatingActionButton: FloatingActionButton(
+          backgroundColor: Colors.cyanAccent,
+          onPressed: () {},
+          child: Icon(Icons.add),
+        ),
       ),
     );
   }
